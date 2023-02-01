@@ -1,0 +1,108 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.header{
+     width: 97%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin: .5rem 1rem;
+}
+
+.heading{
+     margin: 0rem .5rem;
+}
+
+.header>a{
+     text-decoration: none;
+     /* padding: 1rem; */
+}
+.header>a>span{
+     padding: .5rem 1rem;
+}
+
+.order_details{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: rgba(128, 128, 128, 0.164);
+     margin: 1rem 0rem;
+}
+.product-detail{
+     /* padding: 2rem; */
+     width: 100%;
+     /* border: 1px solid red; */
+     margin: 0rem 1rem;
+}
+.product-detail>p{
+     font-size: 2rem;
+
+}
+
+.productsList {
+     /* border: 2px solid black; */
+     width: 100%;
+     margin: 0px;
+     padding: 1rem;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.cart-item-card{
+     width: 100%;
+     overflow-x: auto;
+     /* border: 1px solid red; */
+}
+
+.product{
+     margin: 1rem;
+}
+
+.cancelOrder,.markAsCompleted{
+     font-weight: 700;
+     border: none;
+     background-color: transparent;
+     cursor: pointer;
+     color: red;
+     padding: .5rem 1rem;
+     margin-bottom: 1rem;
+     transition: all linear .2s;
+     outline: none;
+     outline-offset: -15px;
+}
+
+.markAsCompleted{
+     color: green;
+     
+}
+.markAsCompleted:hover{
+     outline: 1px solid green;
+     outline-offset: 2px;
+}
+.cancelOrder:hover{
+     /* color: #ffffff; */
+     /* background-color: gray; */
+     /* box-shadow: 1px 1px 2px gray; */
+     outline: 1px solid rgb(255, 0, 0);
+     outline-offset: 2px;
+ }
+.orderCHeading{
+     margin-bottom: 1rem;
+     color: green;
+     /* cursor: none; */
+     user-select: none;
+}
+
+@media only screen and (max-width: 750px) {
+
+     .cart-item-card {
+          width: 90%;
+     }
+
+}

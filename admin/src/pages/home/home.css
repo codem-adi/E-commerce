@@ -1,0 +1,56 @@
+.createProduct{
+     width: 100%;
+     /* border: 1px solid red; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 1rem;
+}
+.heading{
+     border: 2px solid black;
+}
+.createProduct> input{
+     padding: .5rem;
+     width: 20%;
+     margin: 1rem;
+     margin-bottom: .2rem;
+     /* border: 1px solid red; */
+}
+
+.itsErrorTag{
+     text-transform: capitalize;
+     font-weight: 400;
+     font-size: 1rem;
+     text-align: left;
+     width: 20%;
+     margin-bottom: 1rem;
+     color: red;
+}
+.operationBtn{
+     /* border: 1px solid red; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+
+.operationBtn>button{
+     font-size: 1rem;
+     padding: .5rem 2rem;
+     margin: 0rem 1rem;
+     margin-bottom: 1rem;
+}
+
+.ordersList>h1{
+     margin-bottom: 0px;
+     border-top: 1px solid gray;
+}
+
+@media only screen and (max-width: 550px) {
+     .createProduct>input {
+               padding: .5rem;
+               width: 80%;
+               margin: 1rem;
+               /* border: 1px solid red; */
+          }
+}

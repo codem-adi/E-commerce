@@ -1,0 +1,44 @@
+nav{
+     position: fixed;
+     width: 100%;
+     background: #000000;
+     color: #ffffff;
+     top: 0px;
+     
+}
+.to-cart{
+     /* border: 2px solid red; */
+     padding: .2rem;
+     position: relative;
+     list-style: none;
+     color: #ffffff;
+     text-decoration: none;
+}
+.header{
+     padding: 1.5rem 4rem;
+     display: flex;
+     justify-content: space-between;
+}
+.header>h1{
+     /* border: 1px solid red; */
+     text-transform: uppercase;
+}
+.user{
+     opacity:.5;
+     padding-right: 1rem;
+}
+.header>i{
+     
+     padding: .5rem;
+}
+
+.cart-count{
+     position: absolute;
+     top: -50%;
+     right: -50%;
+     background: red;
+     border-radius: 20rem;
+     padding: .3rem;
+     font-size: .6rem;
+     letter-spacing: .1rem;
+}
